@@ -1,0 +1,44 @@
+/* 
+    1. flex-direction 定义主轴方向
+    2. align-items 定义交叉轴的对齐方式
+    3. justify-content 定义主轴的对齐方式
+    4. 要使背景色全屏，需要去设置 page 的背景色和高度100% 
+    5. 参照 .container 的写法，理解 box-sizing 的用法
+*/
+
+page {
+  background: #009688;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.user-avatar{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.user-name {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.moto {
+  background: #8bc34a;
+  font-size: 22rpx;
+  width: 200rpx;
+  text-align: center;
+}
+
+.moto text {
+  line-height: 80rpx;
+}
