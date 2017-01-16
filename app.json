@@ -1,9 +1,9 @@
 {
   "pages":[
+    "pages/posts/post", 
     "pages/welcome/welcome",
     "pages/index/index",
     "pages/movies/movies",
-    "pages/posts/post",    
     "pages/logs/logs"
   ],
   "window":{

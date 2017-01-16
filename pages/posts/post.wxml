@@ -1,2 +1,43 @@
-<!--pages/posts/post.wxml-->
-<text>pages/posts/post.wxml</text>
+<view>
+  <swiper vertical="{{false}}" indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image src="/images/post/xiaolong.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/sls.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/vr.png"></image>
+    </swiper-item>
+  </swiper>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image src="/images/avatar/1.png"></image>
+      <text>{{date}}</text>
+    </view>
+    <text class="post-title">{{post.title}}</text>
+    <image class="post-image" src="/images/post/crab.png"></image>
+    <text class="post-content">{{post.abstract}}</text>
+    <view class="post-like">
+      <image src="/images/icon/chat.png"></image>
+      <text>92</text>
+      <image src="/images/icon/chat1.png"></image>
+      <text>65</text>
+    </view>
+  </view>
+    <view class="post-container">
+    <view class="post-author-date">
+      <image src="/images/avatar/1.png"></image>
+      <text>Nov 25 2017</text>
+    </view>
+    <text class="post-title">这是标题</text>
+    <image class="post-image" src="/images/post/crab.png"></image>
+    <text class="post-content">这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要</text>
+    <view class="post-like">
+      <image src="/images/icon/chat.png"></image>
+      <text>92</text>
+      <image src="/images/icon/chat1.png"></image>
+      <text>65</text>
+    </view>
+  </view>
+</view>
