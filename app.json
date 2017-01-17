@@ -1,12 +1,12 @@
 {
-  "pages":[
-    "pages/posts/post", 
+  "pages": [
     "pages/welcome/welcome",
+    "pages/posts/post",
     "pages/index/index",
     "pages/movies/movies",
     "pages/logs/logs"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#009688"
   }
 }
